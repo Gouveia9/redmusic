@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+ 
+
+    
+</head>
+<body>
+
+
+           <input type=" text" id="userName"/>  
+           <button >Show Username</button>
+           
+        
+        <p id="name" class="text-color">Show name...</p>
+
+        
+ <script >
+         window.alert("oltt mundo");
+        // var confirmacao=window.confirm('voce tem certeza?');
+        // window.alert(confirmacao)
+        const button=document.getElementById('button');
+        const userName=document.getElementById('userName');
+        const name=document.getElementById('name');
+
+        function showName(inputName){
+            name.innerText=inputName;
+        
+        }
+
+        button.addEventListener('click',()=>{
+            console.log('helle')
+            shouName(userName.value)
+        })
+
+         </script>
+</body>
+</html>
